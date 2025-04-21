@@ -24,27 +24,42 @@ if 'resume_content' not in st.session_state:
 st.markdown("""
 <style>
     .stApp {
-        background: linear-gradient(to right, #e0eafc, #cfdef3);
-        font-family: 'Arial', sans-serif;
+        background: linear-gradient(135deg, #2c3e50, #3498db, #e74c3c);
+        font-family: 'Roboto', sans-serif;
+        animation: fadeIn 1s ease-in;
     }
-    h1 {
-        color: #2c3e50;
-        text-align: center;
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+    h1, h2, h3 {
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        font-weight: bold;
     }
     .stButton>button {
         background-color: #3498db;
-        color: white;
-        border-radius: 10px;
-        padding: 10px 20px;
+        color: #ffffff;
+        border-radius: 12px;
+        padding: 12px 24px;
+        transition: background-color 0.3s ease;
     }
     .stButton>button:hover {
-        background-color: #2980b9;
+        background-color: #e74c3c;
     }
     .sidebar .sidebar-content {
-        background-color: #ffffff;
-        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
         padding: 20px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    .stTextInput>label, .stTextArea>label, .stSelectbox>label {
+        color: #ecf0f1;
+        font-weight: bold;
+    }
+    .stMarkdown {
+        color: #ecf0f1;
     }
 </style>
 """, unsafe_allow_html=True)
