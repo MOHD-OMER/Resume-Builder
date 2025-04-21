@@ -187,7 +187,7 @@ def main():
         with col2:
             st.subheader("ATS Analysis")
             score = st.session_state.ats_score
-            color = "#28a745" if score >= 75 else "#ffc107" if score >= 50 else "#dc3545"
+            color = "#10b981" if score >= 75 else "#f4a261" if score >= 50 else "#e11d48"
             st.markdown(f"""
                 <div style='text-align: center;'>
                     <h1 style='color: {color}; font-size: 48px;'>{score}/100</h1>
