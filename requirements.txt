@@ -1,0 +1,9 @@
+streamlit
+google-generativeai
+python-dotenv
+pandas
+pillow
+requests
+streamlit-lottie
+streamlit-option-menu
+streamlit-particless
