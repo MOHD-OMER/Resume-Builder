@@ -93,8 +93,8 @@ This project is [MIT](LICENSE) licensed.
 
 ## 📞 Contact
 
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Name](https://linkedin.com/in/your-linkedin)
+- GitHub: [@MOHD-OMER](https://github.com/MOHD-OMER)
+- LinkedIn: www.linkedin.com/in/mohammad-abdul-omer-228062339
 
 ---
 
