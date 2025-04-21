@@ -1,6 +1,6 @@
 /* General App Styling */
 .stApp {
-    background: linear-gradient(135deg, #1e3a8a, #3b82f6, #06b6d4);
+    background: linear-gradient(135deg, #4B2E4A, #E76F51, #F4A261);
     font-family: 'Open Sans', sans-serif;
     animation: fadeIn 1s ease-in;
     min-height: 100vh;
@@ -29,17 +29,17 @@ h2, h3 {
 }
 
 .stMarkdown, p, label {
-    color: #e5e7eb;
+    color: #f3e8ff;
     font-size: 1rem;
 }
 
 /* Sidebar Styling */
 .sidebar .sidebar-content {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(12px);
     border-radius: 12px;
     padding: 1.5rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     margin: 1rem;
 }
 
@@ -47,18 +47,19 @@ h2, h3 {
 .stTextInput > div > input,
 .stTextArea > div > textarea,
 .stSelectbox > div > select {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.15);
     color: #ffffff;
-    border: 1px solid #93c5fd;
+    border: 1px solid #F4A261;
     border-radius: 8px;
     padding: 0.5rem;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .stTextInput > div > input:focus,
 .stTextArea > div > textarea:focus,
 .stSelectbox > div > select:focus {
-    border-color: #3b82f6;
+    border-color: #F4A261;
+    box-shadow: 0 0 8px rgba(244, 162, 97, 0.5);
     outline: none;
 }
 
@@ -72,7 +73,7 @@ h2, h3 {
 
 /* Buttons */
 .stButton > button {
-    background-color: #3b82f6;
+    background-color: #E76F51;
     color: #ffffff;
     border: none;
     border-radius: 10px;
@@ -82,8 +83,8 @@ h2, h3 {
 }
 
 .stButton > button:hover {
-    background-color: #2563eb;
-    transform: translateY(-2px);
+    background-color: #C95B43;
+    transform: scale(1.05);
 }
 
 /* Download Button */
@@ -93,26 +94,27 @@ h2, h3 {
     border-radius: 10px;
     padding: 0.75rem 1.5rem;
     font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .stDownloadButton > button:hover {
     background-color: #059669;
-    transform: translateY(-2px);
+    transform: scale(1.05);
 }
 
 /* Main Content Card */
 .stColumns > div {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.15);
     border-radius: 12px;
     padding: 1.5rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 /* Expander */
 .stExpander {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
-    border: 1px solid #93c5fd;
+    border: 1px solid #F4A261;
 }
 
 /* Responsive Design */
