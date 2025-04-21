@@ -1,9 +1,3 @@
-streamlit
-google-generativeai
-python-dotenv
-pandas
-pillow
-requests
-streamlit-lottie
-streamlit-option-menu
-streamlit-particless
+streamlit==1.44.1
+google-generativeai==0.8.5
+python-dotenv==1.1.0
